@@ -69,9 +69,12 @@ app.*.map.json
 *.mobileprovision
 **/secrets/
 **/credentials/
-secrets.txt
-passwords.txt
-credentials.txt
+**/secret.*
+**/secrets.*
+**/credential.*
+**/credentials.*
+**/password.*
+**/passwords.*
 .env
 .env.*
 !.env.example
