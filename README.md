@@ -166,3 +166,18 @@ flutter test
 The application has been manually tested on a physical Android device. Core functionality and navigation have been verified. Automated tests can additionally be executed to identify potential issues and maintain code quality.
 
 
+
+
+## Screenshots
+
+### Home Dashboard
+![Home Dashboard](Screenshot_20261105_190359.jpg)
+
+### Transaction History
+![Transaction History](Screenshot_20261105_190404.jpg)
+
+### Insights
+![Insights](Screenshot_20261105_190408.jpg)
+
+### Add Transaction
+![Add Transaction](Screenshot_20261105_190413.jpg)
