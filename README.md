@@ -66,3 +66,50 @@ configuration. The generated APK is suitable for local testing only, not for
 publishing or distribution as a production release. Configure a private
 release keystore and reference it through ignored local signing configuration
 before publishing. Never commit keystore files, passwords, or signing secrets.
+
+
+## Testing and Validation
+
+SpendTrack undergoes testing to verify its functionality, reliability, and application stability.
+
+### Code Quality
+
+Flutter analyzer is used to identify potential coding issues and maintain code quality.
+
+```bash
+flutter analyze
+```
+
+### Application Testing
+
+Flutter tests are executed to verify application components and expected behavior.
+
+```bash
+flutter test
+```
+
+The project test suite successfully completed 45 tests during release validation.
+
+### Functional Validation
+
+The following areas were checked:
+
+- Transaction creation, editing, and deletion.
+- Income and expense tracking.
+- Monthly budget management.
+- Recurring transaction functionality.
+- Local data persistence after application restart.
+- Navigation between application screens.
+
+### Data Security
+
+- Transaction and budget information is stored locally on the device.
+- Signing keystores and passwords must never be uploaded to GitHub.
+- Local signing configuration is excluded from version control.
+- Users should maintain backups of important application data.
+
+### Project Maintenance
+
+Regularly run Flutter analysis and tests before making changes or preparing a new release to maintain application stability and code quality.
+
+
