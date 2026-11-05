@@ -181,3 +181,19 @@ The application has been manually tested on a physical Android device. Core func
 
 ### Add Transaction
 ![Add Transaction](Screenshot_20261105_190413.jpg)
+
+
+## Team Members and Responsibilities
+
+| Team Member | Responsibilities |
+|---|---|
+| Aswindatha | Project Lead and Main Developer – Flutter application development, Provider state management, data persistence, application integration, and APK generation. |
+| Hemanth | Documentation – Project setup, installation instructions, requirements, and README documentation. |
+| James | Testing and Quality Assurance Documentation – Testing procedures, test cases, validation, and quality assurance documentation. |
+
+### Component Ownership
+- Aswindatha: Core application architecture and integration.
+- Hemanth: Setup and installation documentation.
+- James: Testing and quality assurance documentation.
+
+
