@@ -112,4 +112,57 @@ The following areas were checked:
 
 Regularly run Flutter analysis and tests before making changes or preparing a new release to maintain application stability and code quality.
 
+## Testing and Quality Assurance
+
+Testing is an important part of SpendTrack development to ensure that financial records, budget calculations, and application features work correctly.
+
+### 1. Functional Testing
+
+The following application features are checked:
+
+- Transaction management: Verify adding, editing, deleting, searching, and filtering transactions.
+- Dashboard calculations: Check available balance, total income, and total expenses.
+- Budget management: Verify budget creation, spending limits, and progress calculations.
+- Recurring transactions: Check schedule creation, pause, and resume functionality.
+- Notifications: Verify notification status and updates.
+- Navigation: Check movement between Home, History, Insights, and Profile.
+
+### 2. Important Test Cases
+
+| Test Scenario | Expected Result |
+|---|---|
+| Add income | Income record is saved |
+| Add expense | Expense record is saved |
+| Edit transaction | Updated details are displayed |
+| Delete transaction | Selected record is removed |
+| Apply transaction filter | Matching records are displayed |
+| Create budget | Budget is saved successfully |
+| Exceed budget limit | Spending alert is triggered when applicable |
+| Restart application | Locally saved data is retained |
+| Mark notification as read | Notification status changes |
+
+### 3. Automated Testing
+
+Flutter provides testing tools to validate application quality.
+
+```bash
+flutter analyze
+flutter test
+```
+
+- `flutter analyze` identifies potential code issues.
+- `flutter test` executes the available automated test cases.
+
+### 4. Data Reliability and Security
+
+- Verify that transaction information is stored locally.
+- Check data persistence after application restarts.
+- Validate financial calculations and transaction updates.
+- Ensure invalid or incomplete inputs are handled appropriately.
+- Avoid exposing passwords, signing keys, or sensitive credentials in the repository.
+
+### 5. Testing Summary
+
+The application has been manually tested on a physical Android device. Core functionality and navigation have been verified. Automated tests can additionally be executed to identify potential issues and maintain code quality.
+
 
